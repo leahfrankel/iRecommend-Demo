@@ -56,9 +56,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(recommendation here)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="999-KL-I7a">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(recommendation here)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="999-KL-I7a">
                                 <rect key="frame" x="116.5" y="305" width="181" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -72,7 +71,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="k2U-yV-AJS" firstAttribute="top" secondItem="LSJ-pI-bMa" secondAttribute="top" constant="240" id="5PT-34-ywO"/>
+                            <constraint firstItem="999-KL-I7a" firstAttribute="centerX" secondItem="qGE-QU-IeK" secondAttribute="centerX" id="DPU-Lq-KaM"/>
                             <constraint firstItem="k2U-yV-AJS" firstAttribute="centerX" secondItem="qGE-QU-IeK" secondAttribute="centerX" id="VFi-H1-ecx"/>
+                            <constraint firstItem="999-KL-I7a" firstAttribute="top" secondItem="k2U-yV-AJS" secondAttribute="bottom" constant="44" id="vzd-5D-CVF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="LSJ-pI-bMa"/>
                     </view>
