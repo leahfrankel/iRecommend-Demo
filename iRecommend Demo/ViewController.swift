@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        SetRandomReccomendation()
+       // SetRandomReccomendation()
         // Do any additional setup after loading the view.
     }
     @IBAction func Randomize(_ sender: Any) {
