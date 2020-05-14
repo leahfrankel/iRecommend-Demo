@@ -13,11 +13,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        SetRandomReccomendation()
         // Do any additional setup after loading the view.
     }
     @IBAction func Randomize(_ sender: Any) {
+        SetRandomReccomendation()
     }
-    
+    var fruits: [String] = ["strawberry","mango","blueberry","pineapple"]
+    func SetRandomReccomendation() {
+ }
 
 }
 
