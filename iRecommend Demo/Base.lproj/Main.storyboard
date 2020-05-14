@@ -64,10 +64,10 @@
                                     <action selector="Randomize:" destination="I2U-bV-ZVJ" eventType="touchUpInside" id="QO8-t7-77u"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="(recommendation here)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="999-KL-I7a">
-                                <rect key="frame" x="123" y="306" width="181" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="PRESS RANDOMIZE TO GET A SURPIRSE FRUIT!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="999-KL-I7a">
+                                <rect key="frame" x="10" y="301" width="373" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -87,7 +87,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nU1-Rj-SMY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="854" y="127"/>
+            <point key="canvasLocation" x="853.62318840579712" y="126.5625"/>
         </scene>
     </scenes>
 </document>
