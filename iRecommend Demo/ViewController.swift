@@ -21,6 +21,8 @@ class ViewController: UIViewController {
     }
     var fruits: [String] = ["strawberry","mango","blueberry","pineapple"]
     func SetRandomReccomendation() {
+        let randomReccomendation = fruits.randomElement()
+self.recommendationLabel.text = randomReccomendation
  }
 
 }
